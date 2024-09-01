@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js"></script>
+        <script src="banco.js"></script>
+        <title>Nunes Sports</title>
+    </head>
+
+    <body>
+        <h1>Nunes Sports</h1>
+        <div class="aligncenter">
+            <form class="form">
+                <input type="hidden" id="field-id" value="" />
+                <div class="box">
+                    <input type="text" id="field-name"/>
+                    <label for="field-name">Nome do produto</label>
+                </div>
+
+                <div class="box">
+                    <input type="text" id="field-produto"/>
+                    <label for="field-produto">Código do Produto</label>
+                </div>
+
+                <div class="box">
+                    <input type="text" id="field-descricao"/>
+                    <label for="field-descricao">Descrição do produto</label>
+                </div>
+                <div class="box">
+                    <input type="number" id="field-preco"/>
+                    <label for="field-preco">Preço</label>
+                </div>
+                <div class="per"><a id="btn-salvar" class="button" >SALVAR</a></div>
+                <div class="per"><a id="btn-deletar" class="button" >DELETAR</a></div>
+            </form>
+            <table id="table-register">
+                <thead>
+                    <th>Nome do produto</th>
+                    <th>Código do Produto</th>
+                    <th>Descrição do produto</th>
+                    <th>Preço</th>
+                </thead>
+                <tbody id="tbody-register">
+                
+                </tbody>
+            </table>
+        </div>
+    </body>
+
+</html>
